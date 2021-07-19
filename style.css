@@ -1,0 +1,45 @@
+body{
+    text-align: center;
+    background: url(img/f3.png);
+    background-repeat:inherit;
+    background-origin: border-box;
+    background-position: center;
+            
+    color: #ffff;
+}
+
+header{
+    border-image-width: 50%;
+}
+
+h1{
+    font-family: Tourney, cursive;
+    font-size: 80px;
+    color: #fab697;
+}
+
+.titulo-amarelo{
+color: #fbff00;
+font-family: Marck Script, cursive;
+font-size: 40px;
+}
+.titulo-vermelho{
+color: #ff2600;
+font-family: Bungee, cursive;
+font-size: 30px;
+}
+p{
+    font-family: Bungee, cursiva;
+    font-size: 25px;
+    color: #f1c0a9;
+}
+button{
+    background-color: #eb9065;
+    font-family: Bungee, cursive;
+    font-size: 20px;
+}
+h5{
+    font-size: 20px;
+    font-family: Bungee, cursiva;
+    color: #ffffff;
+}
