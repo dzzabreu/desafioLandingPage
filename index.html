@@ -31,24 +31,68 @@
             <h2 class="titulo-amarelo">Que nós fazemos a melhor pizza,<br>você já sabe.</h2>
             <h2 class="titulo-vermelho">MAS VOCÊ SABIA QUE AGORA TAMBÉM<br>ACEITAMOS PEDIDOS PELA INTERNET?</h2>
             <h2 class="titulo-amarelo">E o melhor é que a cada pedido online,<br>você ganha mais uma pizza* de graça.</h2>
+            <h2 class="titulo-laranja">E AÍ, VAI PEDIR O QUE?</h2>
+
         </main>
         <br>
         <br>
         <br>
-        <br>
         <footer>
-            <p>Se você já é nosso cliente, faça seu pedido aqui:</p>
-            <button id="botaoPedir"><a href="" title="Faça seu pedido" target="_blank">QUERO PEDIR!</a></button>
+
+            <nav class="opções">
+                <ul>
+                    <p>Se você já é nosso cliente, faça seu pedido aqui:</p>
+                    <li>
+                        <button><a href="#cliente">Quero pedir!</a></button>
+                    </li>
+                    <br>
+                    <p>Ainda não é nosso cliente? Relaxa, é só se cadastrar!</p>
+                    <li>
+                        <button><a href="#novocliente">Quero me cadastrar!</a></button>
+                    </li>
+                </ul>
+            </nav>
             <br>
-            <p>Ainda não é nosso cliente? Relaxa, é só se cadastrar!</p>
-            <button id="botaoCadastro"><a href="" title="Cadastre-se aqui" target="_blank">Quero me Cadastrar!</a></button>
             <br>
             <br>
-            <h5>*Apenas pedidos a partir de R$60,00 são elegíveis para ganhar uma pizza gratuita.</h5>
+        <h5>*Apenas pedidos a partir de R$60,00 são elegíveis para ganhar uma pizza gratuita.</h5>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <section id="novocliente">
+                <p>Novo cliente, né?<br>Calma, é só fazer o cadastro abaixo e você já vai poder fazer o seu pedido, ok?</p>
+                <form>
+                    <label for="nome">Nome completo:</label>
+                    <input id="nome" type="text">
+                    <br>
+
+                    <label for="contato">Contato:</label>
+                    <input id="contato" type="number">
+                    <br>
+                
+                    <label for="endereço">Endereço:</label>
+                    <input id="endereço" type="text">
+                    <br>
+                
+                    <label for="novasenha">Cadastre uma senha:</label>
+                    <input id="novasenha" type="password">
+                    <br>
+                    <button id="botaoCadastro">Confirmar o cadastro</button>
+                </form>
+            </section>
+            <br>
+            <br>
             <br>
             <br>
             <br>
             <img src="img/logoMini.png" alt="Logo pequena Casa della Nonna" title="Casa della Nonna"/>
         </footer>
+    <script type="text/javascript" src="script.js"></script>
     </body>
 </html>
